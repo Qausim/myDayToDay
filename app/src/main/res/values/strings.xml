@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">dayToday</string>
+    <string name="heading_days">Days</string>
+    <string name="heading_updated">Updated</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="populate_field_prompt">Please populate field</string>
+</resources>

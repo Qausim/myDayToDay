@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.mydaytoday.ShowActivitesActivity">
+
+    <TextView
+        android:id="@+id/edit_activities_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="20 Jun, 2018"
+        android:textSize="22sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/dateHeadingColor"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_activities_activities_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:paddingTop="16dp"
+        android:fontFamily="monospace"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:gravity="top"
+        tools:text="Went to the gym and worked out."/>
+</LinearLayout>
